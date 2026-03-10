@@ -20,7 +20,7 @@ clear; close all; clc;
 p.rho         = 5.0;   % r/s (unused in SDE when v is clamped to 0)
 p.alpha       = 0.6;   % dR*R0/r (unused in SDE when v is clamped to 0)
 p.theta       = 0.95;  % Ra/R0
-p.gamma_on    = 0.5;   % g_on/s
+p.gamma_on    = 0.5;   % g_on/(s*Gmax)
 p.gamma_off   = 2.5;   % g_off/s
 p.mu_on_guard = 2.0;   % (dI*m_on*Gmax)/(r*s)
 p.mu_on_self  = 2.0;   % (dI*m_on)/(r*s)
